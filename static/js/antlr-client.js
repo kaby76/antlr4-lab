@@ -806,6 +806,9 @@ $(document).ready(function() {
 });
 
 
+// Adapted from https://stackoverflow.com/a/69541337/4779853
+// Need the code embedded in "$(document).ready(function() {" because
+// canvas = $("#canvas").get(0); returns null until ready.
 $(document).ready(function() {
 
 	// helpers
